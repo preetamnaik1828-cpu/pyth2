@@ -1,0 +1,5 @@
+name= str(input("enter the name of user:"))
+movie1= input("enter your favarite movie in kannada:")
+movie2= input("enter your favarite movie in  hindi:")
+movie3= input("enter your favarite movie in english:")
+print(name,"your favarite movies are",[movie1,movie2,movie3])
