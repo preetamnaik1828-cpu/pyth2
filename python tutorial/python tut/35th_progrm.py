@@ -4,3 +4,4 @@ with open("demo.txt","r+") as f:
     
 with open("demo.txt","w+")as f:
     f.write("my name is preetam")
+    f.close
