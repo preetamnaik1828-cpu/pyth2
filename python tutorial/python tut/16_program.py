@@ -2,7 +2,7 @@
 #while i<=5:
   #  print("preetam")
  #   i+=1
-#print(i)
+print(i)
 
 #print the number 1 to 100
 i= 1
