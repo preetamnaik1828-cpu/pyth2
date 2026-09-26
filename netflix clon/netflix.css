@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+
+.banner {
+  
+    height: 50px;
+    width: 1200px;
+    position: static;
+
+    background: linear-gradient(
+        90deg,
+        #5C32BF 0%,
+        #90227D 50%,
+        #E20917 100%
+    );
+    color: #ffffff;
+    font-family: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    background-image: url("bkimg.jpg");
+    height: 550px;
+    background-size: cover;
+
+}
+.logo{
+    position: relative ;
+    top: 20px;
+    margin-left: 110px;
+    height: 45px;
+    display: flex;
+  
+}
+.net{
+    height: 45px;
+    width: 166px;
+    background-image: url("net_logo.svg");
+    background-size: cover;
+    margin-right: 620px;
+    
+}
+.re{
+    width: 134px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+
+
+}
+.sign{
+    height: 35px;
+    width: 80px;
+    margin-top: 10px ;
+    border-radius: 3px;
+    background-color: #E20917 ;
+    border: none;
+    color: white;
+    
+
+
+}
+.head{
+  
+    margin: 140px;
+    margin-left: 345px
+}
+h1{
+    font-weight:800;
+    font-size: 50px;
+    color: white;
+   
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+span{
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 30px;
+   
+}
+.email{
+   /* display: block;*/
+    width: 308px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.053);
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    right: 30px;
+   
+   
+    
+}
+.h2{
+    margin-right: 100px;
+}
+.last{
+  position: relative;
+  top: 10px;
+}
+.try{
+
+    height: 58px;
+    width: 280px;
+    background-color:  #E20917;
+    border: 1px solid none;
+    border-radius: 8px;
+    position: relative;
+    top: 4px;
+    
+    
+    
+
+}
+.day{
+    font-size: 25px;
+    font-weight:500;
+    color: white;
+    
+    
+}
+.new{
+    font-size: 16px;
+    font-weight: 100;
+    position: relative;
+    left: 70px;
+}
+
+/*border-image:linear-gradient(90deg,#8e2de2,#ff2d55,#8e2de2) 1;*/
+.mhero{
+    height: 1900px;
+    background-color: black;
+}
+
+.curve{
+    height: 10px;
+    width: 1220;
+    border-top:4px solid;
+    border-image:linear-gradient(90deg,#8e2de2,#ff2d55,#8e2de2) 1;
+    border-radius:50% 50% 0 0 / 100% 100% 0 0;
+
+}
+body{
+    margin:0;
+    background:#000;
+}
+
+.hero{
+    height:200px;
+    background:linear-gradient(
+        to bottom,
+        #182244 0%,
+        #121A3A 20%,
+        #0C1330 45%,
+        #050812 70%,
+        #000000 100%
+    );
+}
+
+.Trending{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+
+}
+
+.box{
+    height: 252px;
+    width: 180px;
+    border: 4px solid transparent;
+    border-radius: 10px;
+    background-size: cover;
+}
+.msg{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.mbox{
+    height: 347px;
+    width: 248px;
+    border: 5px solid black;
+    border-radius: 28px;
+        background: linear-gradient(
+        180deg,
+        #1d2348 0%,
+        #1b1a39 30%,
+        #1a1328 65%,
+        #120b16 100%
+    );
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}  
+
+
+.join {
+    position: relative;
+    top: 100px;
+    margin-left: 18px;
+}
+.more{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.latter{
+    font-size: 24px;
+    color: #ffffff;
+    position: relative;
+    left: 25px;
+    top: 30px;
+}
+
+pre{
+    font-size: 17px;
+    color: #dddddd;
+    position: relative;
+    right: 29px;
+    top: 50px;
+}
+
+
+.mini{
+    height: 72px;
+    width: 72px;
+  
+    position: relative;
+    left: 160px;
+    top: 130px;
+    background-size: cover;
+}
+.cs{
+      height: 72px;
+    width: 72px;
+  
+    position: relative;
+    left: 160px;
+    top: 100px;
+    background-size: cover;
+}
+.ce{
+        height: 72px;
+    width: 72px;
+  
+    position: relative;
+    left: 160px;
+    top: 92px;
+    background-size: cover;
+}
+.f{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 45px;
+    
+}
+
+.qs{
+    margin-top: 30px;
+}
+
+
+
+.ans{
+    height: 89px;
+    width: 980px;
+    border: 2px solidm transparent;
+    background-color: #414141;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 8px;
+    color: white;
+}
+.ans :hover{
+    background-color: #4141417b;
+}
+
+.block{
+    font-size: 23px;
+    position: relative;
+    top: 28px;
+    
+   
+}
+.h4{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+    margin-top: 0px;
+    margin-left: 900px;
+    background-size: cover;
+
+}
+h4{
+    font-size: 16px;
+    color: white;
+    font-weight: 50;
+    margin-top: 100px;
+    margin-left: 380px;
+
+}
+.u{
+    margin-left: 195px;
+    position:  relative;
+    bottom: 220px;
+
+}
+.pemail{
+    width: 400px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.053);
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    right: 30px;
+
+}
+.h6{
+    padding-right: 280px;
+}
+
+.last{
+  position: relative;
+  top: 10px;
+}
+.ftry{
+
+    height: 58px;
+    width: 280px;
+    background-color:  #E20917;
+    border: 1px solid none;
+    border-radius: 8px;
+    position: relative;
+    top: 4px;
+    
+    
+    
+
+}
+.my{
+    color: #dddddd;
+    margin-top: -8px;
+    margin-left: -30px;
+    font-size: 15px;
+
+
+}
+.call{
+    margin-left: 133px;
+    color: #dddddd;
+    position: relative;
+    bottom: 120px;
+}
+
+a{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+   
+}
+.panell_last{
+    margin-left: -30px;
+    color: #dddddd;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -90px;
+}
+
+.panell_last{
+    height: 100px;
+    background-color: #000;
+    color: #dddddd;
+}
+
+.we{
+    color: white;
+    margin-left: 135px;
+    position: relative;
+    top:-30px;
+    color: white;
+    height: 32px;
+    width: 125px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.h5{
+    color: white;
+    padding-left: 79px;
+    
+    font-size: 14px;
+}
+.line{
+    color: #ffffff80;
+    padding-left: 165px;
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    
+}
